@@ -5,6 +5,7 @@
  */
 .page-wrapper {
 	width:800px;
+	height: 2000px;
 	margin: 0 auto;
 	padding:0 13px;
 	position:relative;
@@ -16,8 +17,8 @@
 
 
 #banner {
-	  margin-left: 7%;
-	 margin-right: 80%; 
+	  margin-left: -40%;
+	 margin-right: 40%; 
 }
 	
 
@@ -34,10 +35,10 @@
 	nav ul { 
 	display:inline-block;
 	 list-style-type: none;
-	 margin-left: 5%;
-	 margin-right: 1%;
-	 margin-bottom: 7%;
-	 margin-top: -6%;
+	 margin-left: 60%;
+	 margin-right: -60%;
+	 margin-bottom: 19%;
+	 margin-top: -19%;
 	 padding: 0px;
 }
 
@@ -63,22 +64,21 @@ nav ul li a:hover, nav ul li a:focus {
 	 							/*ABOUT*/
 
 #aboutheading {
-	 font-size: 4em;
-     font-weight: bold;
+	 font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: 5%;
+	 margin-top: -6%;
 	 margin-bottom: 11%;
-	 margin-left: 13%;
+	 margin-left: -30%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
 	 
 #me {
 	 
-	 margin-top: 5%;
+	 margin-top: -4%;
 	 margin-bottom: 2%;
-	 margin-left: -1.7%;
+	 margin-left: -39%;
 	 margin-right: 40%;
 	 list-style-position: inside;
 	 width: 8%;
@@ -92,14 +92,14 @@ nav ul li a:hover, nav ul li a:focus {
 
 #about {
 	 float:left;
-	 margin-top:65%;
-	 margin-bottom: 20%;
-	 margin-left: -3.6%;
+	 margin-top:130%;
+	 margin-bottom: 10%;
+	 margin-left: -30%;
 	 margin-right: 15%;
 	 font-size: 2em;
 	 font-family: 'Shadows Into Light', cursive;
 	 color: black; 
-	 width: 90%;
+	 width: 150%;
 	 height: 10em;
 	 text-align: center;
      padding: 20px;
@@ -108,30 +108,28 @@ nav ul li a:hover, nav ul li a:focus {
 	 						/* ART */
 							
 .artheading {
-
-	font-size: 4em;
-     font-weight: bold;
+	 font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: 5%;
-	 margin-bottom: 89%;
-	 margin-left: 28%;
+	 margin-top: -6%;
+	 margin-bottom: 11%;
+	 margin-left: -30%;
 	 margin-right: 20%;
 	 position: absolute;
-	}
+}
 	 
 #art {
 	 float:left;
-	 margin-top: 9%;
+	 margin-top: -5%;
 	 margin-bottom: -20%;
-	 margin-left: 10%;
+	 margin-left: -35%;
 	 margin-right: 15%;
 	 font-size: 2em;
 	 font-family: 'Shadows Into Light', cursive;
 	 color: black; 
-	 width: 60%;
+	 width: 170%;
 	 height: 10em;
-	 text-align: center;
+	 text-align: left;
      padding: 20px;
 	 
 	}
@@ -178,13 +176,12 @@ nav ul li a:hover, nav ul li a:focus {
 
 											/*ALGALS   SHOP*/
 											
-	#algalsheading { font-size: 4em;
-     font-weight: bold;
-	 font-family: "basic title font" ;
+	#algalsheading {  font-size: 2em;
+	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: -3%;
-	 margin-bottom: 11%;
-	 margin-left: 21%;
+	 margin-top: -13%;
+	 margin-bottom: 0%;
+	 margin-left: -30%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
@@ -204,16 +201,35 @@ nav ul li a:hover, nav ul li a:focus {
 	 color: #C3E6F8; 
 	 font-weight: lighter;
 	 }								
-
+	
+	#images{
+		align-content:center;
+		margin-top: -9%;
+		height: 400px;
+		margin-left: -39%;
+	}
+	
+	td {
+		padding:12px;
+		margin-top: 30%;
+		margin-bottom: 10%;
+		
+	}
+	td a:hover {
+		color: #3D4344; 
+	 font-weight: bold;
+	 opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+	}
+	
 													/*SERVICES*/
 													
-	#servicesheading { font-size: 4em;
-     font-weight: bold;
+	#servicesheading { font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: 5%;
-	 margin-bottom: 11%;
-	 margin-left: 26%;
+	 margin-top: -6%;
+	 margin-bottom: 0%;
+	 margin-left: -30%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
@@ -231,22 +247,21 @@ nav ul li a:hover, nav ul li a:focus {
 													 /*CONTACT ME*/
 	 
 #contactheading {
-	 font-size: 4em;
-     font-weight: bold;
+	 font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: -3%;
-	 margin-bottom: 5%;
-	 margin-left: 22%;
+	 margin-top: -13%;
+	 margin-bottom: 0%;
+	 margin-left: -30%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
 
 	 
 #contact {
-	 margin-top: 5%;
+	 margin-top: -8%;
 	 margin-bottom: 2%;
-	 margin-left: 13%;
+	 margin-left: -30%;
 	 margin-right: 40%;
 	 font-size: 2em;
      font-family: 'Shadows Into Light', cursive;
@@ -258,3 +273,87 @@ nav ul li a:hover, nav ul li a:focus {
      padding: 5px;
 	 position: absolute;
 }
+
+ 															/* DROP DOWN DIV*/
+/*.aboutnav	 {
+	font-color: #000000;
+}
+												
+div {background-color: #ffffff;
+border: none;
+}
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    display:inline-block;
+}
+ a:hover{
+	font-color: #000000;
+}
+ul {
+  display: inline;
+  margin:0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background-color: #FFFFFF;
+font-color:#000000;
+font-weight: bold;
+}
+ul li:hover ul {
+	font-color: #000000;
+	font-weight: bold;
+	
+	}
+ul li ul {
+  position: absolute;
+  width: 90px;
+  display: none;
+}
+ul li ul li { 
+  font-display:bold; 
+   
+}
+ul li ul li a {font-display: bold} 
+ul li ul li:hover {font-display:bold;
+font-color:black;
+
+}											
+												
+.navbar a:hover{
+	border: none;
+	font-color: #000000;
+	
+	
+}
+
+.dropdown-toggle a:hover, .dropdown-toggle a:focus {
+	background-color: #ffffff;
+	font-color: #000000;
+}
+
+.dropdown-menu {
+	background-color: #ffffff;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+	font-color: #000000;
+    color: black;
+    padding: 14px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+												
+*/											
+												
+												
+												
+												
+												
+												
+												
+	
