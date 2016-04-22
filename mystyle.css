@@ -3,10 +3,17 @@
 <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie|Zeyada|Amatic+SC' rel='stylesheet' type='text/css'>
 
  */
+ body {
+	 background-color:#fffff;
+	 width: 100%;
+	 height: 700px;
+	
+	
+ }
 .page-wrapper {
-	width:800px;
-	height: 2000px;
-	margin: 0 auto;
+	width:50%;
+	height: 200%;
+	margin-left: 20%;
 	padding:0 13px;
 	position:relative;
 	border-left:1px solid #ffffff;
@@ -17,7 +24,7 @@
 
 
 #banner {
-	  margin-left: -40%;
+	  margin-left: -78%;
 	 margin-right: 40%; 
 }
 	
@@ -25,7 +32,7 @@
 .headbanner {
 	 margin-top: 7%;
 	 margin-bottom: 10%;
-	 margin-left: -14%;
+	 margin-left: 9%;
 	 margin-right: 20%; 
 	 padding: 10px;
 	 
@@ -35,10 +42,10 @@
 	nav ul { 
 	display:inline-block;
 	 list-style-type: none;
-	 margin-left: 52%;
-	 margin-right: -550%;
-	 margin-bottom: 19%;
-	 margin-top: -19%;
+	 margin-left: 62%;
+	 margin-right: -680%;
+	 margin-bottom: 49%;
+	 margin-top: -29%;
 	 padding: 0px;
 }
 
@@ -64,21 +71,21 @@ nav ul li a:hover, nav ul li a:focus {
 	 							/*ABOUT*/
 
 #aboutheading {
-	 font-size: 2em;
+	font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
 	 margin-top: -6%;
 	 margin-bottom: 11%;
-	 margin-left: -30%;
+	 margin-left: -18%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
 	 
 #me {
 	 
-	 margin-top: -4%;
+	 margin-top: -29%;
 	 margin-bottom: 2%;
-	 margin-left: -29%;
+	 margin-left: -25%;
 	 margin-right: 40%;
 	 list-style-position: inside;
 	 width: 8%;
@@ -92,12 +99,12 @@ nav ul li a:hover, nav ul li a:focus {
 
 #about {
 	 float:left;
-	 margin-top:100%;
-	 margin-bottom: 10%;
-	 margin-left: -31%;
+	 margin-top:90%;
+	 margin-bottom: 2%;
+	 margin-left: -17%;
 	 margin-right: 15%;
 	 font-size: 2em;
-	 font-family: 'Shadows Into Light', cursive;
+	 font-family: "basic title font";
 	 color: black; 
 	 width: 150%;
 	 height: 10em;
@@ -113,37 +120,45 @@ nav ul li a:hover, nav ul li a:focus {
 	 color: black; 
 	 margin-top: -6%;
 	 margin-bottom: 11%;
-	 margin-left: -30%;
+	 margin-left: -11%;
 	 margin-right: 20%;
 	 position: absolute;
-}
+	 float: left;
+	 }
 	 
 #art {
 	 float:left;
-	 margin-top: -5%;
+	 margin-top: -25%;
 	 margin-bottom: -20%;
-	 margin-left: -35%;
+	 margin-left: -15%;
 	 margin-right: 15%;
-	 font-size: 2em;
+	 font-size: 1.4em;
 	 font-family: 'Shadows Into Light', cursive;
 	 color: black; 
-	 width: 170%;
+	 width: 154%;
 	 height: 10em;
-	 text-align: left;
+	 text-align: center;
      padding: 20px;
 	 
 	}
      
+	#artimages {
+		align-content:center;
+		margin-top: -9%;
+		height: 400px;
+		margin-left: -21%;
+	}
+		
 
 #paintings {
 	font-size: 3em;
      font-weight: bold;
-	 font-family: 'Shadows Into Light', cursive;
+	 font-family: "basic font title";
 	 color: black; 
 	 margin-top: -12%;
 	 margin-bottom: 5%;
-	 margin-left: 35%;
-	 margin-right: 20%;
+	 margin-left: -8%;
+	 margin-right: 80%;
 	
 	 
 
@@ -155,7 +170,7 @@ nav ul li a:hover, nav ul li a:focus {
 	margin: auto;
 	margin-top: 16%;
 	margin-bottom: 2%;
-	margin-left: 5%;
+	margin-left: 42%;
 	margin-right: 5%;
 	font-family: 'Shadows Into Light';
 	font-size:1.5em;
@@ -167,7 +182,7 @@ nav ul li a:hover, nav ul li a:focus {
 	margin: auto;
 	margin-top: 5%;
 	margin-bottom: 2%;
-	margin-left: 5%;
+	margin-left: 42%;
 	margin-right: 5%;
 	font-family: 'Shadows Into Light';
 	font-size:1.5em;
@@ -176,12 +191,13 @@ nav ul li a:hover, nav ul li a:focus {
 
 											/*ALGALS   SHOP*/
 											
-	#algalsheading {  font-size: 2em;
+	.algalsheading {   
+	font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: -13%;
-	 margin-bottom: 0%;
-	 margin-left: -30%;
+	 margin-top: -6%;
+	 margin-bottom: 11%;
+	 margin-left: -11%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
@@ -204,9 +220,9 @@ nav ul li a:hover, nav ul li a:focus {
 	
 	#images{
 		align-content:center;
-		margin-top: -9%;
+		margin-top: -30%;
 		height: 400px;
-		margin-left: -39%;
+		margin-left: -28%;
 	}
 	
 	td {
@@ -228,40 +244,51 @@ nav ul li a:hover, nav ul li a:focus {
 	 font-family: "basic title font";
 	 color: black; 
 	 margin-top: -6%;
-	 margin-bottom: 0%;
-	 margin-left: -30%;
+	 margin-bottom: 11%;
+	 margin-left: -11%;
 	 margin-right: 20%;
 	 position: absolute;
 	 }
 	
 	#palms {
-		 float: left;
-		 margin-top:15%;
+		 
+		 margin-top:-25%;
 		 margin-bottom:0%;
-		 margin-left: 6%;
+		 margin-left: 49%;
 		 margin-right:6%;
 		 opacity: 0.8;
 		 filter: alpha(opacity=40); /* For IE8 and earlier */
 	}
+	
+	.servicesoffered {
+		margin-left: -20%;
+		text-decoration: none;
+		margin-right: 20%;
+		margin-bottom: -10%;
+		margin-top:-80%;
+		font-size: 2em;
+	}
+		
 														
 													 /*CONTACT ME*/
 	 
 #contactheading {
-	 font-size: 2em;
+	font-size: 2em;
 	 font-family: "basic title font";
 	 color: black; 
-	 margin-top: -13%;
-	 margin-bottom: 0%;
-	 margin-left: -30%;
+	 margin-top: -6%;
+	 margin-bottom: 11%;
+	 margin-left: -11%;
 	 margin-right: 20%;
 	 position: absolute;
+
 	 }
 
 	 
 #contact {
 	 margin-top: -8%;
 	 margin-bottom: 2%;
-	 margin-left: -30%;
+	 margin-left: 9%;
 	 margin-right: 40%;
 	 font-size: 2em;
      font-family: 'Shadows Into Light', cursive;
