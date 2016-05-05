@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+    <style>
+	body {
+    margin:0; 
+    padding:0; 
+    text-align:center; /* used to center div in IE */
+}
+#wrapper {
+    width:600px; 
+	height: 900px;
+    margin:0 auto; /*centers the div horizontally in all browsers (except IE)*/
+    background:#fff; 
+    text-align:center; /*resets text alignment from body tag */
+    
+    border-top:none; 
+    padding:px; 
+    /*Let's add some CSS3 styles, these will degrade gracefully in older browser and IE*/
+    
+  
+    
+}
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:url(../../Lightbox/overlay.png) repeat}
+
+#lightbox p {
+    text-align:right; 
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px; 
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}
+
+</style>
+<link href="https://fonts.googleapis.com/css?family=Megrim|Shadows+Into+Light" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="mystyle.css" media="screen">
+<link href="http://fonts.googleapis.com/css?family=Reenie+Beanie|Zeyada|Amatic+SC" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css"> 
+    <link href="../mystyle.css" rel="stylesheet" type="text/css">
+    <title>Ali Futrell | Painting</title>
+    </head>
+<body>
+<p style="font-family:'basic title font'; margin-right:80%; margin-top: 4%; font-size: 30px; text-color:#000000; text-decoration: none"><a href="art.html">back</a></p>
+ <div id="lightbox">
+    <p>Click to close</p>
+    <div id="content"> </div>
+</div>
+<div id="wrapper">
+    <h1 style="font-family: 'basic title font'; margin-left: 6%;">Painting</h1>
+    <p style="font-family: 'basic title font'; margin-left: 6%;">Oil paintings on canvas 2015-2016:
+        <ul style="list-style-type: none">
+            <li>
+                <a href="https://farm8.staticflickr.com/7604/26193918904_ec163e682f_c.jpg" class="lightbox_trigger"><img src="../Images/alifutrell_cake_26193918904_o.jpg" width="330px" height="200px"/>
+            
+                </a>
+            </li>
+            <li>
+                <a href="https://farm8.staticflickr.com/7103/26705975042_b1d956c308_b.jpg" class="lightbox_trigger"><img src="../../Lightbox/26705975042_2f64f02928_k-2.jpg" width="300px" height="190px"/>
+             
+                </a>
+            </li>
+            <li>
+                <a href="https://farm8.staticflickr.com/7022/26733368681_5547702c3c_z.jpg" class="lightbox_trigger"><img src="../Images/26733368681_5547702c3c_z.jpg" width="250px" height="350px"/>
+           
+                </a>
+            </li> 
+        </ul>
+     </p>
+</div> <!-- #/wrapper -->
+<script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	
+	$('.lightbox_trigger').click(function(e) {
+		
+		//prevent default action (hyperlink)
+		e.preventDefault();
+		
+		//Get clicked link href
+		var image_href = $(this).attr("href");
+		
+		/* 	
+		If the lightbox window HTML already exists in document, 
+		change the img src to to match the href of whatever link was clicked
+		
+		If the lightbox window HTML doesn't exists, create it and insert it.
+		(This will only happen the first time around)
+		*/
+		
+		if ($('#lightbox').length > 0) { // #lightbox exists
+			
+			//place href as img src value
+			$('#content').html('<img src="' + image_href + '" />');
+		   	
+			//show lightbox window - you could use .show('fast') for a transition
+			$('#lightbox').show();
+		}
+		
+		else { //#lightbox does not exist - create and insert (runs 1st time only)
+			
+			//create HTML markup for lightbox window
+			var lightbox = 
+			'<div id="lightbox">' +
+				'<p>Click to close</p>' +
+				'<div id="content">' + //insert clicked link's href into img src
+					'<img src="' + image_href +'" />' +
+				'</div>' +	
+			'</div>';
+				
+			//insert lightbox HTML into page
+			$('body').append(lightbox);
+		}
+		
+	});
+	
+	//Click anywhere on the page to get rid of lightbox window
+	$('#lightbox').live('click', function() { //must use live, as the lightbox element is inserted into the DOM
+		$('#lightbox').hide();
+	});
+
+});
+</script>
+</body>
+</html>
